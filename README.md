@@ -1,86 +1,40 @@
-# Machine Learning Projects Flask App
+# Machine Learning and Data Analytics Projects
 
-Welcome to my Machine Learning Projects Flask App repository! This application serves as a portfolio to showcase various machine learning projects I've worked on. Each project demonstrates different aspects of machine learning, including data preprocessing, model training, and evaluation.
+Welcome to my Machine Learning and Data Analytics repository! This repository serves as a portfolio to showcase various machine learning and data analytics projects I've worked on. Each project demonstrates different skills such as web scraping , data preprocessing, model training, ETL pipelines, and data evaluation.
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Projects](#projects)
-- [Technologies](#technologies)
+- [Web Scraping](#web_scraping)
+- [ETL Pipeline](#etl_pipeline)
+- [Live Trading Bot](#live_trading_bot)
+- [ML1](#ml1)
+- [ML2](#ml2)
+- [ML3](#ml3)
 - [Contact](#contact)
 
-## Introduction
+## Web Scraping
 
-This Flask app is designed to host a collection of my machine learning projects, providing an interactive interface for users to explore each project's details, datasets, and results. The app is intended to demonstrate my skills in developing, deploying, and presenting machine learning models.
+Project Description
 
-## Features
+## ETL Pipeline
 
-- **Interactive User Interface**: Navigate through different machine learning projects.
-- **Project Descriptions**: Detailed information about each project, including objectives, methodologies, and results.
-- **Model Predictions**: Make predictions using trained models directly from the app.
-- **Data Visualization**: Visual representations of data and model performance.
+Project Description
 
-## Installation
+## Live Trading Bot
 
-To get a local copy up and running, follow these steps:
+Project Description
 
-1. **Clone the repository:**
-    ```bash
-    git clone https://github.com/cjibson/ml-flask-app.git
-    cd ml-flask-app
-    ```
+## ML1
 
-2. **Create and activate a virtual environment:**
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    ```
+Project Description
 
-3. **Install the required dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
+## ML2
 
-4. **Set up environment variables:**
-    - Create a `.env` file in the root directory and add any necessary environment variables.
+Project Description
 
-5. **Run the application:**
-    ```bash
-    flask run
-    ```
+## ML3
 
-## Usage
-
-Once the application is running, you can access it in your web browser at `http://localhost:5000`. From the home page, you can navigate to different machine learning projects to see detailed information and interact with the models.
-
-## Projects
-
-Here is a list of the machine learning projects included in this app:
-
-1. **Project 1: [Project Title]**
-   - **Description**: Brief description of the project.
-   - **Technologies**: List of technologies used (e.g., Scikit-Learn, TensorFlow).
-   - **Highlights**: Key achievements and results.
-
-2. **Project 2: [Project Title]**
-   - **Description**: Brief description of the project.
-   - **Technologies**: List of technologies used.
-   - **Highlights**: Key achievements and results.
-
-(Repeat for additional projects)
-
-## Technologies
-
-This app is built with the following technologies:
-
-- **Flask**: Micro web framework for Python.
-- **Python**: Programming language.
-- **HTML/CSS/JavaScript**: Frontend development.
-- **Machine Learning Libraries**: Scikit-Learn, TensorFlow, Keras, etc.
-- **Others**: List any other tools or libraries used.
+Project Description
 
 ## Contact
 
