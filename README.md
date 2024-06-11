@@ -4,13 +4,13 @@ Welcome to my Machine Learning and Data Analytics repository! This repository se
 
 ## Table of Contents
 
-- [Web Scraping](#web_scraping)
-- [ETL Pipeline](#etl_pipeline)
-- [Live Trading Bot](#live_trading_bot)
+- [Web Scraping](#web-scraping)
+- [ETL Pipeline](#etl-pipeline)
+- [Live Trading Bot](#live-trading-bot)
 - [ML1](#ml1)
 - [ML2](#ml2)
 - [ML3](#ml3)
-- [Contact Information](#contact)
+- [Contact Information](#contact-information)
 
 ## Web Scraping
 
