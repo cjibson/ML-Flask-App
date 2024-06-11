@@ -39,10 +39,10 @@ deactivate nondestructive
 if [ "${OSTYPE:-}" = "cygwin" ] || [ "${OSTYPE:-}" = "msys" ] ; then
     # transform D:\path\to\venv to /d/path/to/venv on MSYS
     # and to /cygdrive/d/path/to/venv on Cygwin
-    export VIRTUAL_ENV=$(cygpath "C:\Users\jibso\OneDrive\Desktop\ml-flask-app\ML-Flask-App\venv")
+    export VIRTUAL_ENV=$(cygpath "C:\Users\jibso\OneDrive\Desktop\machine-learning-and-data-analytics\Machine-Learning-and-Data-Analytics\venv")
 else
     # use the path as-is
-    export VIRTUAL_ENV="C:\Users\jibso\OneDrive\Desktop\ml-flask-app\ML-Flask-App\venv"
+    export VIRTUAL_ENV="C:\Users\jibso\OneDrive\Desktop\machine-learning-and-data-analytics\Machine-Learning-and-Data-Analytics\venv"
 fi
 
 _OLD_VIRTUAL_PATH="$PATH"

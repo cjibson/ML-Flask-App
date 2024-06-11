@@ -10,7 +10,7 @@ Welcome to my Machine Learning and Data Analytics repository! This repository se
 - [ML1](#ml1)
 - [ML2](#ml2)
 - [ML3](#ml3)
-- [Contact](#contact)
+- [Contact Information](#contact)
 
 ## Web Scraping
 
@@ -22,7 +22,32 @@ Project Description
 
 ## Live Trading Bot
 
-Project Description
+Objective:
+The goal of this project is to develop an automated trading bot that runs every weekday at market open. The bot retrieves stock data, performs analysis using various trading strategies, and submits paper trading orders via the Alpaca API.
+
+Key Components:
+
+Data Retrieval:
+
+The bot fetches historical stock data for a defined list of tickers from Yahoo Finance using the yfinance library.
+Data is stored in a CSV file, appending new data to existing records.
+Trading Strategies:
+
+The bot implements three trading strategies:
+Mean Reversion Strategy: Buys when the current closing price is below the mean price and sells when above.
+Bollinger Bands Strategy: Uses a 20-day rolling mean and standard deviation to determine upper and lower bands. Buys when the price is below the lower band and sells when above the upper band.
+SMA Crossover Strategy: Uses short (50-day) and long (200-day) simple moving averages. Buys when the short SMA crosses above the long SMA and sells when it crosses below.
+Data Analysis:
+
+The bot iterates through the historical data, applying each strategy daily.
+It determines the overall position (buy, sell, hold) based on the signals from the strategies.
+Analysis results are stored in a JSON file and printed out.
+Order Submission:
+
+Using the Alpaca API, the bot submits paper trading orders for the stocks to buy and sell based on the analysis results.
+Automation:
+
+A batch script (run_trading_bot.bat) and Windows Task Scheduler are used to automate the script execution at market open every weekday.
 
 ## ML1
 
@@ -36,7 +61,7 @@ Project Description
 
 Project Description
 
-## Contact
+## Contact Information
 
 - **Name**: Connor Jibson
 - **Email**: jibsonconnor@gmail.com
