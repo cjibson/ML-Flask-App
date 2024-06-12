@@ -6,6 +6,8 @@ import alpaca_trade_api as tradeapi
 import pandas as pd
 import yfinance as yf
 
+from alpaca_keys import alpaca_config
+
 #Function to obtain data from Yahoo Finance
 def get_data_from_yahoo(tickers, start_date, end_date):
     #Initialize an empty DataFrame to store the data
@@ -178,9 +180,9 @@ def store_results(results_dict):
         json.dump(results_dict, f, indent=4)
         
 #Function to submit paper orders to Alpaca paper trading account
-def submit_paper_orders(stocks_to_buy, stocks_to_sell):
+def submit_paper_orders(alpaca_config, stocks_to_buy, stocks_to_sell):
     #Initialize Alpaca API
-    api = tradeapi.REST('PKER276VBBWJU8OMUXEQ', 'dOZGDEo8cbceMKXLJkDnuFTdC7470hYbLS7GZzo8', base_url='https://paper-api.alpaca.markets')
+    api = tradeapi.REST(alpaca_config['id'], alpaca_config['secret_key'], base_url='https://paper-api.alpaca.markets')
 
     #Submit paper orders to buy
     for stock in stocks_to_buy:
@@ -225,7 +227,7 @@ def main():
     stocks_to_buy, stocks_to_sell = perform_analysis(data)
 
     #Submit paper orders to Alpaca paper trading account
-    submit_paper_orders(stocks_to_buy, stocks_to_sell)
+    submit_paper_orders(alpaca_config, stocks_to_buy, stocks_to_sell)
 
 if __name__ == "__main__":
     main()

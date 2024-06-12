@@ -2511,6 +2511,16 @@
             "Position": "Short"
         },
         {
+            "Date": "2024-06-11 00:00:00",
+            "Stock": "AAPL",
+            "Open": 193.66,
+            "Close": 207.15,
+            "Mean Reversion": "sell",
+            "SMA Crossover": "hold",
+            "Bollinger Bands": "sell",
+            "Position": "Short"
+        },
+        {
             "Date": "2023-06-12 00:00:00",
             "Stock": "MSFT",
             "Open": 328.58,
@@ -5015,6 +5025,16 @@
             "Stock": "MSFT",
             "Open": 424.7,
             "Close": 427.87,
+            "Mean Reversion": "sell",
+            "SMA Crossover": "hold",
+            "Bollinger Bands": "hold",
+            "Position": "Short"
+        },
+        {
+            "Date": "2024-06-11 00:00:00",
+            "Stock": "MSFT",
+            "Open": 425.78,
+            "Close": 432.68,
             "Mean Reversion": "sell",
             "SMA Crossover": "hold",
             "Bollinger Bands": "hold",
@@ -7531,6 +7551,16 @@
             "Position": "Long"
         },
         {
+            "Date": "2024-06-11 00:00:00",
+            "Stock": "GOOGL",
+            "Open": 176.21,
+            "Close": 176.62,
+            "Mean Reversion": "buy",
+            "SMA Crossover": "hold",
+            "Bollinger Bands": "hold",
+            "Position": "Long"
+        },
+        {
             "Date": "2023-06-12 00:00:00",
             "Stock": "AMZN",
             "Open": 124.02,
@@ -7866,7 +7896,7 @@
             "Open": 133.2,
             "Close": 133.68,
             "Mean Reversion": "buy",
-            "SMA Crossover": "hold",
+            "SMA Crossover": "sell",
             "Bollinger Bands": "hold",
             "Position": "Long"
         },
@@ -7876,7 +7906,7 @@
             "Open": 133.55,
             "Close": 131.69,
             "Mean Reversion": "buy",
-            "SMA Crossover": "sell",
+            "SMA Crossover": "hold",
             "Bollinger Bands": "hold",
             "Position": "Long"
         },
@@ -8956,7 +8986,7 @@
             "Open": 145.59,
             "Close": 144.57,
             "Mean Reversion": "buy",
-            "SMA Crossover": "buy",
+            "SMA Crossover": "hold",
             "Bollinger Bands": "hold",
             "Position": "Long"
         },
@@ -8966,7 +8996,7 @@
             "Open": 144.69,
             "Close": 145.24,
             "Mean Reversion": "buy",
-            "SMA Crossover": "hold",
+            "SMA Crossover": "buy",
             "Bollinger Bands": "hold",
             "Position": "Long"
         },
@@ -10035,6 +10065,16 @@
             "Stock": "AMZN",
             "Open": 184.07,
             "Close": 187.06,
+            "Mean Reversion": "buy",
+            "SMA Crossover": "hold",
+            "Bollinger Bands": "hold",
+            "Position": "Long"
+        },
+        {
+            "Date": "2024-06-11 00:00:00",
+            "Stock": "AMZN",
+            "Open": 187.06,
+            "Close": 187.23,
             "Mean Reversion": "buy",
             "SMA Crossover": "hold",
             "Bollinger Bands": "hold",
@@ -12543,8 +12583,18 @@
         {
             "Date": "2024-06-10 00:00:00",
             "Stock": "META",
-            "Open": 493.53,
+            "Open": 493.86,
             "Close": 502.6,
+            "Mean Reversion": "sell",
+            "SMA Crossover": "hold",
+            "Bollinger Bands": "sell",
+            "Position": "Short"
+        },
+        {
+            "Date": "2024-06-11 00:00:00",
+            "Stock": "META",
+            "Open": 500.16,
+            "Close": 507.47,
             "Mean Reversion": "sell",
             "SMA Crossover": "hold",
             "Bollinger Bands": "sell",
@@ -12567,8 +12617,8 @@
             "Close": 435.73,
             "Mean Reversion": "sell",
             "SMA Crossover": "hold",
-            "Bollinger Bands": "buy",
-            "Position": "Long"
+            "Bollinger Bands": "hold",
+            "Position": "Short"
         },
         {
             "Date": "2023-06-14 00:00:00",
@@ -13076,7 +13126,7 @@
             "Open": 412.0,
             "Close": 416.03,
             "Mean Reversion": "sell",
-            "SMA Crossover": "hold",
+            "SMA Crossover": "sell",
             "Bollinger Bands": "hold",
             "Position": "Short"
         },
@@ -13086,7 +13136,7 @@
             "Open": 418.04,
             "Close": 418.06,
             "Mean Reversion": "sell",
-            "SMA Crossover": "sell",
+            "SMA Crossover": "hold",
             "Bollinger Bands": "hold",
             "Position": "Short"
         },
@@ -15055,6 +15105,16 @@
             "Stock": "NFLX",
             "Open": 641.01,
             "Close": 644.5,
+            "Mean Reversion": "sell",
+            "SMA Crossover": "hold",
+            "Bollinger Bands": "hold",
+            "Position": "Short"
+        },
+        {
+            "Date": "2024-06-11 00:00:00",
+            "Stock": "NFLX",
+            "Open": 640.72,
+            "Close": 648.55,
             "Mean Reversion": "sell",
             "SMA Crossover": "hold",
             "Bollinger Bands": "hold",
@@ -17571,6 +17631,16 @@
             "Position": "Long"
         },
         {
+            "Date": "2024-06-11 00:00:00",
+            "Stock": "TSLA",
+            "Open": 173.92,
+            "Close": 170.66,
+            "Mean Reversion": "buy",
+            "SMA Crossover": "hold",
+            "Bollinger Bands": "hold",
+            "Position": "Long"
+        },
+        {
             "Date": "2023-06-12 00:00:00",
             "Stock": "NVDA",
             "Open": 39.2,
@@ -17663,7 +17733,7 @@
         {
             "Date": "2023-06-26 00:00:00",
             "Stock": "NVDA",
-            "Open": 42.44,
+            "Open": 42.46,
             "Close": 40.63,
             "Mean Reversion": "buy",
             "SMA Crossover": "hold",
@@ -18803,7 +18873,7 @@
         {
             "Date": "2023-12-06 00:00:00",
             "Stock": "NVDA",
-            "Open": 47.21,
+            "Open": 47.22,
             "Close": 45.5,
             "Mean Reversion": "buy",
             "SMA Crossover": "hold",
@@ -19873,7 +19943,7 @@
         {
             "Date": "2024-05-10 00:00:00",
             "Stock": "NVDA",
-            "Open": 90.3,
+            "Open": 90.31,
             "Close": 89.88,
             "Mean Reversion": "buy",
             "SMA Crossover": "hold",
@@ -20074,7 +20144,17 @@
             "Date": "2024-06-10 00:00:00",
             "Stock": "NVDA",
             "Open": 120.37,
-            "Close": 121.71,
+            "Close": 121.79,
+            "Mean Reversion": "buy",
+            "SMA Crossover": "hold",
+            "Bollinger Bands": "hold",
+            "Position": "Long"
+        },
+        {
+            "Date": "2024-06-11 00:00:00",
+            "Stock": "NVDA",
+            "Open": 121.79,
+            "Close": 120.91,
             "Mean Reversion": "buy",
             "SMA Crossover": "hold",
             "Bollinger Bands": "hold",
@@ -22591,6 +22671,16 @@
             "Position": "Long"
         },
         {
+            "Date": "2024-06-11 00:00:00",
+            "Stock": "AMD",
+            "Open": 160.46,
+            "Close": 158.96,
+            "Mean Reversion": "buy",
+            "SMA Crossover": "hold",
+            "Bollinger Bands": "hold",
+            "Position": "Long"
+        },
+        {
             "Date": "2023-06-12 00:00:00",
             "Stock": "INTC",
             "Open": 31.4,
@@ -25095,6 +25185,16 @@
             "Stock": "INTC",
             "Open": 30.55,
             "Close": 30.91,
+            "Mean Reversion": "buy",
+            "SMA Crossover": "hold",
+            "Bollinger Bands": "hold",
+            "Position": "Long"
+        },
+        {
+            "Date": "2024-06-11 00:00:00",
+            "Stock": "INTC",
+            "Open": 30.77,
+            "Close": 30.92,
             "Mean Reversion": "buy",
             "SMA Crossover": "hold",
             "Bollinger Bands": "hold",
