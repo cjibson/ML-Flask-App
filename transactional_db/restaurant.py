@@ -168,7 +168,7 @@ while place_order:
 
     while True:
         # Ask the customer if they would like to order anything else
-        keep_ordering = input("Would you like to keep ordering? (Y)es or (N)o?").lower()
+        keep_ordering = input("Would you like to keep ordering? (Y)es or (N)o? ").lower()
 
         # 5. Check the customer's input
         if keep_ordering == 'y':
@@ -192,27 +192,26 @@ print("This is what we are preparing for you.\n")
 print("Item name                 | Price  | Quantity")
 print("--------------------------|--------|----------")
 
-# 6. Loop through the items in the customer's order
+#Loop through the items in the customer's order
 for order in orders:
-    # 7. Store the dictionary items as variables
+    #tore the dictionary items as variables
     item_name = order['item_name']
     price = order['price']
     quantity = order['quantity']
 
-    # 8. Calculate the number of spaces for formatted printing
-    num_item_spaces = 24 - len(item_name)
-    num_price_spaces = 6 - len(f"{price}")
+    #Calculate the number of spaces for formatted printing
+    num_item_spaces = 25 - len(item_name)
+    num_price_spaces = 5 - len(f"{price}")
     num_quantity_spaces = 8 - len(str(quantity))
 
-    # 9. Create space strings
+    #Create space strings
     item_spaces = " " * num_item_spaces
     price_spaces = " " * num_price_spaces
     quantity_spaces = " " * num_quantity_spaces
 
-    # 10. Print the item name, price, and quantity
+    #Print the item name, price, and quantity
     print(f"{item_name}{item_spaces} | ${price}{price_spaces} | {quantity}{quantity_spaces}")
 
-# 11. Calculate the cost of the order using list comprehension
 # Multiply the price by quantity for each item in the order list, then sum() and print the prices.
 total = sum(float(order['price']) * int(order['quantity']) for order in orders)
 print(f'\nTotal amount due: ${total:.2f}')
