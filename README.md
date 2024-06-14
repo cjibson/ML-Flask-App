@@ -6,6 +6,7 @@ Welcome to my Machine Learning and Data Analytics repository! This repository se
 
 - [Web Scraping](#web-scraping)
 - [ETL Pipeline](#etl-pipeline)
+- [Transactional Database](#transactional-database)
 - [Live Trading Bot](#live-trading-bot)
 - [ML1](#ml1)
 - [ML2](#ml2)
@@ -30,10 +31,14 @@ The project is automated to run daily using a batch script and Windows Task Sche
 
 Project Description
 
+## Transactional Database
+
+Description
+
 ## Live Trading Bot
 
 Objective:
-> The goal of this project is to develop an automated trading bot that runs every weekday at market open. The bot retrieves stock data, performs analysis using various trading > strategies, and submits paper trading orders via the Alpaca API.
+The goal of this project is to develop an automated trading bot that runs every weekday at market open. The bot retrieves stock data, performs analysis using various trading strategies, and submits paper trading orders via the Alpaca API.
 
 Key Components:
 
